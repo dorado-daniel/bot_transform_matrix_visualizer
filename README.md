@@ -1,5 +1,7 @@
 # Robot Kinematics Visualizer
 
+![Robot Kinematics Visualizer preview](preview.png)
+
 A small interactive 3D viewer that **shows you what a transformation matrix
 actually means** on a real industrial robot (the classic Puma 560), as the
 robot moves through a guided sequence of poses.
