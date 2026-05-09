@@ -1,0 +1,23 @@
+[project]
+name = "robot-kinematics-visualizer"
+version = "0.1.0"
+description = "Robot kinematics visualization with Robotics Toolbox and PyVista."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "numpy<2",
+    "roboticstoolbox-python",
+    "spatialmath-python",
+    "pyvista",
+    "trimesh",
+    "pycollada",
+]
+
+[tool.basedpyright]
+include = ["src"]
+venvPath = "."
+venv = ".venv"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
